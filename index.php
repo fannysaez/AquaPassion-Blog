@@ -17,7 +17,7 @@
                 <strong>Alors, enfilez votre maillot de bain et plongez avec nous dans l'univers de la natation !</strong>
             </p><br><br>
             <div class="d-flex justify-content-center">
-                <div class="border border-5 rounded p-2">
+                <div class="dotted-border border-5 rounded p-2">
                     <img class="rounded img-fluid mx-auto d-block" style="max-width: 700px" src="/assets/img/accueil/natation.webp" alt="Natation">
                 </div>
             </div><br>
