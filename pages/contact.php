@@ -5,7 +5,7 @@
 <main class="container py-5 mb-3">
     <!-- Titre centré -->
     <h1 class="text-center fw-bold fs-3 mb-5">Contactez-nous</h1>
-    <p class="text-center mt-5 mb-5">
+    <p class="text-center mt-5 mb-5 py-3">
         <!-- Description -->
     </p>
 
