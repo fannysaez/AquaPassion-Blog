@@ -13,7 +13,8 @@
 
         <p class="mb-0">
             <i class="bi bi-envelope text-primary fs-3"></i><br><br>
-            <a class="btn-primary-link" href="mailto:contact@aquapassion.com">contact@aquapassion.com</a>
+            <!-- <a class="btn-primary-link" href="mailto:contact@aquapassion.com">contact@aquapassion.com</a> -->
+            <a type="button" href="/pages/contact.php" class="btn-primary-link">M'écrire</a>
         </p>
 
     </div>

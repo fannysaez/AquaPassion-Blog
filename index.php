@@ -18,10 +18,16 @@
             </p><br><br>
             <div class="d-flex justify-content-center">
                 <div class="border border-5 rounded p-2">
-                    <img class="img-fluid mx-auto d-block" style="max-width: 700px" src="/assets/img/accueil/natation.webp" alt="Natation">
+                    <img class="rounded img-fluid mx-auto d-block" style="max-width: 700px" src="/assets/img/accueil/natation.webp" alt="Natation">
                 </div>
             </div><br>
-        </div>
+
+            <div class="container-fluid mt-5">
+                <div class="row align-items-start g-5">
+                    <?php include_once 'includes/cards.php'; ?>
+                </div>
+
+            </div>
     </main>
 
 

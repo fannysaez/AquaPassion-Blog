@@ -3,7 +3,10 @@
 
 <body>
     <main class="container py-5 mb-3">
-        <h1 class="text-center fw-bold fs-3 mb-5">Nagez, explorez, dominez les vagues</h1>
+        <h1 class="text-center fw-bold fs-3 mb-5">Contactez-nous</h1>
+        <p class=" text-center mt-5 mb-5">
+            Description
+        </p>
         <div class="d-flex justify-content-center">
             <div class="border border-5 rounded p-3">
                 <img class="img-fluid mx-auto d-block" src="/assets/img/contact/surf.webp" alt="Surf" style="max-width: 1000px">
