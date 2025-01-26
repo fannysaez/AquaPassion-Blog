@@ -26,7 +26,6 @@
                 <div class="row align-items-start g-5">
                     <?php include_once 'includes/cards.php'; ?>
                 </div>
-
             </div>
     </main>
 

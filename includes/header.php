@@ -14,16 +14,18 @@
 </head>
 
 <body>
-  <nav id="navbar-example2" class="navbar navbar-light bg-light px-2">
-    <a class="navbar-brand" href="">
-      <img class="logo" src="/assets/img/logo/AquaPassion.svg" alt="logo AquaPassion">
-    </a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="/index.php">Accueil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/pages/contact.php">Contact</a>
-      </li>
-    </ul>
-  </nav>
+  <header>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-2">
+      <a class="navbar-brand" href="">
+        <img class="logo" src="/assets/img/logo/AquaPassion.svg" alt="logo AquaPassion">
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.php">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/contact.php">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
