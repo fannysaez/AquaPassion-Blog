@@ -14,7 +14,7 @@
         <!-- Colonne de gauche : Image -->
         <div class="col-md-6 d-flex align-items-center justify-content-start">
             <div class="border border-5 rounded p-3">
-                <img class="img-fluid mx-auto d-block" src="/assets/img/contact/surf.webp" alt="Surf" style="max-width: 550px">
+                <img class="img-fluid mx-auto d-block" src="/assets/img/contact/nage.webp" alt="Surf" style="max-width: 550px">
             </div>
         </div>
 

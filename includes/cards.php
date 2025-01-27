@@ -10,7 +10,7 @@ function getTextPreview($texte)
     }
 }
 
-foreach ($articles as $articleCards): ?>
+foreach ($articles as $id => $articleCards): ?>
     <div class="col-md-3 mb-4">
         <div class="card" style="width: 18rem;">
             <img src="../assets/img/blog/<?php echo $articleCards["imagePath"]; ?>" class="card-img-top" alt="<?php echo $articlesCard["name"]; ?>">
@@ -19,7 +19,7 @@ foreach ($articles as $articleCards): ?>
                 <p class="card-description"><?php echo getTextPreview($articleCards["article"]); ?></p>
                 <p class="card-date"><?php echo $articleCards["date"]; ?></p>
                 <p class="card-creator"><?php echo $articleCards["createdBy"]; ?></p>
-                <a href="#" class="btn btn-primary">Ouvrir l'article</a>
+                <a href="pages/single.php?id" class="btn btn-primary">Ouvrir l'article</a>
                 </div>
         </div>
     </div>
