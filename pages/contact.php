@@ -47,7 +47,7 @@
                 <!-- Champ Message -->
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
                 </div>
 
                 <!-- Bouton de soumission -->
