@@ -24,13 +24,13 @@
                 <!-- Champ Nom -->
                 <div class="mb-3">
                     <label for="nom" class="form-label">Nom</label>
-                    <input type="text" class="form-control" id="nom" name="nom" required>
+                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
                 </div>
 
                 <!-- Champ Email -->
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Votre email" required>
                 </div>
 
                 <!-- Champ Sujet (liste déroulante) -->
