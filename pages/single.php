@@ -1,5 +1,9 @@
 <?php include_once "includes/header.php"; ?>
-<?php include_once "includes/data.php"; ?>
+<?php include_once "includes/data.php"; 
+$id = $_GET["id"];
+$content = $articles[$id];
+
+?>
 
 
 <main class="container py-5">
