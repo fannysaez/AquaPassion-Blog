@@ -55,6 +55,9 @@
                 <!-- Bouton de soumission -->
                 <button type="submit" class="btn btn-primary">Envoyer</button>
             </form>
+            <p id="errorMessage" class="text-danger mt-3 fw-bold fs-5 d-none">
+              Le message contient des mots interdits.
+            </p>
         </div>
     </div>
 </main>
