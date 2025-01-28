@@ -52,7 +52,7 @@
                 </div>
 
                 <!-- Bouton de soumission -->
-                <button type="submit" class="btn btn-primary">Envoyer</button>
+                <button type="submit" class="border btn btn-light">Envoyer</button>
             </form>
         </div>
     </div>

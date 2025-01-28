@@ -39,7 +39,7 @@ if (isset($articles[$id])) {
                     <p class=" lh-lg card-description text-center">Désolé l'article que vous recherchez n'existe pas.</p>
 
                     <div class="text-center">
-                        <a href="/index.php" class="btn btn-primary ">Retour à la page d'accueil</a>
+                        <a href="/index.php" class="border btn btn-light">Retour à la page d'accueil</a>
                     </div>
                 </div>
             </div>

@@ -10,10 +10,10 @@
                     Votre message à bien été envoyer avec succés !
                 </div>
                 <div class="mx-3 p-3">
-                <p><b>Nom :</b><br> <?php echo $_POST["nom"] ?> </p>
-                <p><b>Email :</b><br> <?php echo $_POST["email"] ?> </p>
-                <p><b>Sujet :</b><br> <?php echo $_POST["sujet"] ?> </p>
-                <p class="message-box my-5"><b>Message :</b> <br> <?php echo $_POST["message"] ?> </p>
+                <p><b>Nom :</b> <?php echo $_POST["nom"] ?> </p>
+                <p><b>Email :</b> <?php echo $_POST["email"] ?> </p>
+                <p><b>Sujet :</b> <?php echo $_POST["sujet"] ?> </p>
+                <p class="message-box my-5"><b>Message :</b> <br><br> <?php echo $_POST["message"] ?> </p>
                 </div>
             <?php else: ?>
                 <div class="alert alert-danger text-center" role="alert">
