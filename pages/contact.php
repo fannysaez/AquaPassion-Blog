@@ -18,7 +18,7 @@
 
         <!-- Colonne de droite : Formulaire de contact -->
         <div class="col-md-6">
-            <form action="form/transmission.php" method="post">
+            <form action="/form/transmission.php" method="post">
                 <!-- Champ Nom -->
 
                 <div class="mb-3">
