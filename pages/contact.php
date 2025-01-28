@@ -38,8 +38,10 @@
                     <label for="sujet" class="form-label">Sujet</label>
                     <select class="form-select" id="sujet" name="sujet" required>
                         <option value="" disabled selected>Choisissez un sujet</option>
-                        <option value="info">Demande d'information</option>
-                        <option value="support">Support technique</option>
+                        <option value="info">Demande d'information sur les cours</option>
+                        <option value="inscription">Inscription aux activités</option>
+                        <option value="abonnement">Questions sur les abonnements</option>
+                        <option value="support">Support technique (site web ou application)</option>
                         <option value="autre">Autre</option>
                     </select>
                 </div>
