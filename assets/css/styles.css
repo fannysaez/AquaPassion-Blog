@@ -28,6 +28,17 @@ h1 {
 .dotted-border {
   border: 6px solid #e1e2e4;
 }
+
+/*Single*/
+.text-justify {
+  text-align: justify;
+}
+/*images*/
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* footer */
 .footer {
   padding: 20px 0;
