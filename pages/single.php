@@ -22,7 +22,7 @@ if (isset($articles[$id])) {
                     </div>
                 </div>
             </div>
-            <p class="card-date text-end mb-3 me-3" style="margin-right: 20px;"> <?php echo $content["createdBy"]; ?></p>
+            <p class="cardcard-date text-end mb-3 me-3" style="margin-right: 20px;"> <?php echo $content["createdBy"]; ?></p>
             <p class="card-date text-end" style="margin-right: 20px;"><?php echo $content["date"]; ?></p>
             </p>
         </div>

@@ -5,10 +5,8 @@
 <main class="container py-5 mb-3">
     <!-- Titre centré -->
     <h1 class="text-center fw-bold fs-3 mb-5">Contactez-nous</h1>
-    <p class="text-center mt-5 mb-5 py-3">
-        <!-- Description -->
-    </p>
-
+    <p class="text-center mt-5 mb-5 py-3"></p>
+    <!-- Description -->
     <!-- Conteneur pour l'image et le formulaire -->
     <div class="row gx-5">
         <!-- Colonne de gauche : Image -->
@@ -20,8 +18,9 @@
 
         <!-- Colonne de droite : Formulaire de contact -->
         <div class="col-md-6">
-            <form action="contact.php" method="post">
+            <form action="form/transmission.php" method="post">
                 <!-- Champ Nom -->
+
                 <div class="mb-3">
                     <label for="nom" class="form-label">Nom</label>
                     <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
@@ -49,15 +48,12 @@
                 <!-- Champ Message -->
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                 </div>
 
                 <!-- Bouton de soumission -->
                 <button type="submit" class="btn btn-primary">Envoyer</button>
             </form>
-            <p id="errorMessage" class="text-danger mt-3 fw-bold fs-5 d-none">
-              Le message contient des mots interdits.
-            </p>
         </div>
     </div>
 </main>
